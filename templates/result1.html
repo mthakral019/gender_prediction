@@ -1,0 +1,22 @@
+<html>
+    
+    <h2>
+        Final Result
+    </h2>
+    
+    
+    <body>
+    <table border=2>
+     {% for key,value in result.items() %}
+       <tr>
+           {# This is the comment section #}
+           <th>{{ key }}</th>
+           <th>{{ value }}</th>
+       </tr>
+     {% endfor %}
+    </table>
+      
+    </body>
+</html>
+
+<!--It uses jinja2 template engine--> 
